@@ -1,11 +1,12 @@
 import {
-  OpaqueToken,
+  InjectionToken,
   Optional,
-  SkipSelf } from '@angular/core';
+  SkipSelf
+} from '@angular/core';
 import * as localforage from 'localforage';
 
 export function LocalForageToken() {
-  return new OpaqueToken('localforage');
+  return new InjectionToken('localforage');
 }
 
 export function localforageFactory(): any {
