@@ -18,7 +18,8 @@ npm-debug.log
 !tools/**/*.js
 coverage
 *.metadata.json
-bundles
+# bundles
+!bundles/index.js
 issues
 /.vscode
 
