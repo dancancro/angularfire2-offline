@@ -19,7 +19,7 @@ npm-debug.log
 coverage
 *.metadata.json
 # bundles
-!bundles/index.js
+!index.js
 issues
 /.vscode
 
